@@ -42,7 +42,12 @@ ls -l /dev | grep ttyUSB
 sudo chmod 777 /dev/ttyUSB0
 ````
 
+或者也可以通过以下指令更改.launch的默认读取端口
 
+````
+rosed rplidar_ros view_rplidar_s1.launch
+rosed rplidar_ros rplidar_s1.launch
+````
 
 ## 1.3 **运行** **rplidar ros** 包
 
